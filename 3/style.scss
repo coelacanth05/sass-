@@ -1,36 +1,12 @@
-#main {
-  section {
-    margin-bottom: 50px;
-    h1 {
-      font-size: 140%;
-    }
-    p,ul {
-      margin-bottom: 1.5rem;
-    }
-    .notes {
-      color: red;
-    }
-  }
+.a{
+  color: #000;
+  margin: 0;
 }
-
-// #main {
-//   section {
-//     + section {
-//      margin-top: 50px;
-//     }
-//     > h1 {
-//       font-size: 140%;
-//     }
-//   }
-// }
-
-#main {
-  float: left;
-  width: 640px;
-
-  @media screen and(
-    max-width: 640px) {
-  float: none;
-  width: auto;
-  }
+.b{
+  @extend .a;
+  padding: 0;
+  display: block;
+}
+.c{
+  @extend .b
 }
