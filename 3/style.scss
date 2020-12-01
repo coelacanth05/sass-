@@ -1,12 +1,14 @@
-.a{
-  color: #000;
-  margin: 0;
+@mixin hogehoge($value) {
+  aaaaaaaaaaa:$value;
+  bbbbbbbbbbb:$value;
+  ccccccccccc:$value;
 }
-.b{
-  @extend .a;
-  padding: 0;
+
+.box{
+  @include hogehoge(5px);
+  color:red;
+}
+.main{
   display: block;
-}
-.c{
-  @extend .b
+  @include hogehoge(3px 6px);
 }

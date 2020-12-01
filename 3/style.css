@@ -1,10 +1,13 @@
-.a, .b, .c {
-  color: #000;
-  margin: 0;
+.box {
+  aaaaaaaaaaa: 5px;
+  bbbbbbbbbbb: 5px;
+  ccccccccccc: 5px;
+  color: red;
 }
 
-.b, .c {
-  padding: 0;
+.main {
   display: block;
+  aaaaaaaaaaa: 3px 6px;
+  bbbbbbbbbbb: 3px 6px;
+  ccccccccccc: 3px 6px;
 }
-/*# sourceMappingURL=style.css.map */
