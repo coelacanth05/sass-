@@ -1,12 +1,18 @@
-.box-a{
-  background-image: url(...a/png);
+.item .image {
+  margin: 0 auto;
 }
-.box-b{
-  background-image: url(.../png);
+
+@media only screen and (max-width: 768px) {
+  .item .image {
+    padding: 0;
+  }
 }
-.box-c{
-  background-image: url(...c/png);
+
+.item .text {
+  margin-top: 10px;
 }
-.box-d{
-  background-image: url(...d/png);
-}
+
+@media only screen and (max-width: 768px) {
+  .item .image {
+    padding-top: 10px;
+  }

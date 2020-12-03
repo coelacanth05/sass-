@@ -1,7 +1,20 @@
-$List :a,b,c,d;
+@mixin media($width-meddia: 768px) {
+  @media only screen and (max-width: $width-meddia){
+    @content;
+  }
+}
 
-@each $name in $List{
-  .box-#{$name}{
-    background-image: url(...#{$name}.png);
+.item{
+  .image{
+    margin: 0 auto;
+    @include media{
+      padding: 0;
+    }
+  }
+  .text{
+    margin-top: 10px;
+    @include media{
+      padding-top: 10px;
+    }
   }
 }
