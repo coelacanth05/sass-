@@ -1,14 +1,7 @@
-@mixin hogehoge($value) {
-  aaaaaaaaaaa:$value;
-  bbbbbbbbbbb:$value;
-  ccccccccccc:$value;
-}
+$List :a,b,c,d;
 
-.box{
-  @include hogehoge(5px);
-  color:red;
-}
-.main{
-  display: block;
-  @include hogehoge(3px 6px);
+@each $name in $List{
+  .box-#{$name}{
+    background-image: url(...#{$name}.png);
+  }
 }

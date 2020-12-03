@@ -1,13 +1,12 @@
-.box {
-  aaaaaaaaaaa: 5px;
-  bbbbbbbbbbb: 5px;
-  ccccccccccc: 5px;
-  color: red;
+.box-a{
+  background-image: url(...a/png);
 }
-
-.main {
-  display: block;
-  aaaaaaaaaaa: 3px 6px;
-  bbbbbbbbbbb: 3px 6px;
-  ccccccccccc: 3px 6px;
+.box-b{
+  background-image: url(.../png);
+}
+.box-c{
+  background-image: url(...c/png);
+}
+.box-d{
+  background-image: url(...d/png);
 }
