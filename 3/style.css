@@ -1,18 +1,3 @@
-.item .image {
-  margin: 0 auto;
+.box {
+  color: gray;
 }
-
-@media only screen and (max-width: 768px) {
-  .item .image {
-    padding: 0;
-  }
-}
-
-.item .text {
-  margin-top: 10px;
-}
-
-@media only screen and (max-width: 768px) {
-  .item .image {
-    padding-top: 10px;
-  }
