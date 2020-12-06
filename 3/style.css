@@ -1,3 +1,9 @@
-.box {
-  color: gray;
+.main {
+  width: -10px;
+}
+
+.main .box {
+  display: flex;
+  margin: 100px;
+  width: 10px;
 }
